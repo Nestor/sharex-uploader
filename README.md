@@ -4,7 +4,7 @@ A PHP & Apache based File Uploader with ShareX Support
 ### Preview
 ![Preview](https://i.imgur.com/9bUTKNk.png)
 
-##### This is usuable but could use some cleanup! Feel free to create a Pull Request!
+#### This is usuable but could use some cleanup! Feel free to create a Pull Request!
 
 ### Installation:
 
