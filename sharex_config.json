@@ -1,0 +1,12 @@
+{
+  "Name": "Custom File Uploader",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "BASEURL/upload",
+  "FileFormName": "file",
+  "Arguments": {
+    "password": "PASSWORD"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:message$/direct"
+}

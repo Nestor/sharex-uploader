@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col s12 m4">
+    </div>
+    <div class="col s12 m4">
+        <div class="card-panel grey darken-1 hoverable" style="margin-top: 30%;">
+            <div class="card-content white-text">
+                <h5 class="card-title collection-header"><center>File Uploader</br> </center></h5>
+                <form class="upload-form">
+                    <div class="input-field col s12">
+                        <div class="file-field input-field">
+                            <div class="btn">
+                                <span>File</span>
+                                <input type="file" name="file">
+                            </div>
+
+                            <div class="file-path-wrapper">
+                                <input class="file-path" type="text" placeholder="Select a file">
+                            </div>
+                        </div>
+                        <input class="txt-password" type="password" name="password" placeholder="Password"><br>
+
+                    </div>
+                    <div class="card-action">
+                        <div class="center">
+                            <button class="center btn btn-upload waves-effect waves-light" type="submit">Upload</button>
+                        </div>
+                    </div>
+                    <br>
+                </form>
+                <div class="upload-container hidden">
+                    <div class="progress upload-progress">
+                        <div class="determinate" style="width: 0%"></div>
+                    </div>
+                    <div class="file-url-container hidden">
+                        <div class="file-field input-field">
+                            <div class="btn btn-inline waves-effect waves-light file-url-copy" data-clipboard-text="">
+                                <i class="fa fa-link"></i>
+                            </div>
+
+                            <div class="file-path-wrapper">
+                                <input type="text" class="file-url file-path" placeholder="File URL">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
