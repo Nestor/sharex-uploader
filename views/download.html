@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col s12 m4">
+    </div>
+    <div class="col s12 m4">
+        <div class="card-panel grey darken-1 hoverable" style="margin-top: 30%;">
+            <div class="card-content white-text">
+                <center>
+                    <h5 class="card-title collection-header">
+                        {{FILENAME}}
+                    </h5>
+                </center>
+                Size: {{FILESIZE}}<br> Uploaded: {{FILEDATE}}<br> Type: {{FILETYPE}}
+                <form class="download-form">
+                    <div class="card-action">
+                        <div class="center">
+                            <button class="center btn btn-download waves-effect waves-light">Download</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.download-form').submit(function() {
+        window.location.href = '{{FILEURL}}';
+        return false;
+    });
+</script>
