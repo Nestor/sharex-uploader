@@ -7,8 +7,9 @@ A PHP & Apache based File Uploader with ShareX Support
 
 ### Installation:
 
-- Extract the folder into your web directory or a subdirectory
-- Open index.php and edit the password and url variables
+- Extract the .zip somewhere. Apache2 needs to point at /public/.
+- Edit the config.php
+- Open config.php and edit the password and url variables
 - Make sure .htaccess rules are enabled in your apache configuration
 - Edit your php.ini and set post_max_size and upload_max_filesize to the maximum allowed filesize.
 
